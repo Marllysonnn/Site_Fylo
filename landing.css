@@ -1,0 +1,379 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 2524px;
+    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #FFFFFF;
+    background-color: #181e2b;
+}
+.fundo{position: absolute;
+    width: 100%;
+    height: 1190px;
+
+    background-color: #283044;
+}
+
+/*Menu principal*/
+.container_menu{
+    width: 100%;
+    height: 4%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    width: 160px;
+    height: 50px;
+    margin: 4%;
+}
+.menus{
+    position: relative;;
+    width: 21%;
+    left: 50%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;    
+    font-weight: 300;
+}
+.select_menu{
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+.select_menu:hover{
+    text-decoration: underline 3px;
+    cursor: pointer;
+
+}
+
+/*Introducao*/
+.container_intro{
+    width: 100%;
+    height: 42%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    text-align: center;
+}
+.img_intro{
+    z-index: 1;
+    width: 660px;
+    margin-bottom: 4%;
+}
+.texto_intro{
+    z-index: 1;
+    width: 50%;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    margin-bottom: 1%;
+}
+.subtexto_intro{
+    z-index: 1;
+    width: 60%;
+    margin: 1%;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 2px;
+}
+button[type="get"]{
+    z-index: 1;
+    margin: 3%;
+    width: 20%;
+    height: 5%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+    background-color: #6dc4cf;
+}
+.get_started{
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 700;
+
+    color: #FFFFFF;
+}
+.curvy{
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    top: 90%;
+}
+
+/*Conteudo do site*/
+.container_conteudo{
+    width: 100%;
+    height: 70%;
+
+    background-color: #181e2b;
+}
+.container_servicos{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.caixa1{
+    width: 80px;
+    height: 300px;
+    margin: 40px;
+    flex-basis: 40%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.texto_caixa{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.subtexto_caixa{
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 20px;
+    width: 380px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.container_producao{
+    width: 100%;
+    height: 100%;
+}
+.img_stay{
+    position: relative;
+    top: 4%;
+    left: 100px;
+}
+.container_stay{
+    position: relative;
+    width: 46%;
+    height: 20%;
+    bottom: 20%;
+    left: 54%;
+    display: flex;
+    flex-direction: column;
+}
+.Stay_productive{
+    font-size: 42px;
+    width: 400px;
+    margin-bottom: 28px;
+}
+.subtexto_stay{
+    font-size: 18px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+.See_how{
+    margin-top: 10px;
+    color: #6dc4cf;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*Caixa de comentarios*/
+.container_comentarios{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.quoes{
+    z-index: 0;
+    position: relative;
+    bottom: 154px;
+    left: 64px;
+}
+.box_comentarios{
+    z-index: 1;
+    width: 350px;
+    height: 210px;
+    margin: 20px;
+    padding: 40px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    border-radius: 10px;
+
+    background-color: #283044;
+}
+.perfil{
+    position: relative;
+    top: 70px;
+    border-radius: 50px;
+}
+.nome{
+    position: relative;
+    font-weight: 600;
+    top: 48px;
+}
+.cargo{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    font-size: 12px;
+}
+
+/*Caixa de suporte*/
+.box_float{
+    z-index: 1;
+    position: absolute;
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 420%;
+    left: 20%;
+
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #00000050;
+    background-color: #283044;
+}
+.textos_float{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.box_titulo{
+    font-size: 30px;
+    font-weight: 600;
+}
+.box_subtitulo{
+    width: 500px;
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 20px;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+input[class="text_email"]{
+    width: 450px;
+    height: 35px;
+    margin-right: 20px;
+    border-radius: 16px;
+    padding-left: 10px;
+    font-size: medium;
+
+    border: none;
+}
+input[class="text_email"]:focus{
+    outline: none;
+}
+button[type="for_free"]{
+    width: 150px;
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 600;
+    cursor: pointer;
+
+    color: #FFFFFF;
+    background-color: #6dc4cf;
+    border: none;
+}
+
+/*Footer*/
+.footer{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    bottom: -500px;    
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: row;
+
+    background-color: #0C1524;
+}
+.logo_footer{
+    z-index: 1;
+    position: absolute;
+    left: 12%;
+    top: 464%;
+    width: 140px;
+    height: 40px;
+}
+.local{
+    width: 20%;
+    height: 46%;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: small;
+    display: flex;
+}
+.location{
+    position: absolute;
+    left: 13%;
+    top: 53.5%;
+    width: 102x;
+    height: 16px;
+}
+.contato{
+    width: 15%;
+    height: 46%;
+    font-size: smaller;
+    display: flex;
+    gap: 22px;
+    padding-left: 10px;
+    flex-direction: column;
+}
+.about{
+    width: 15%;
+    height: 46%;
+    font-size: smaller;
+    display: flex;
+    gap: 22px;
+    padding-left: 10px;
+    flex-direction: column;
+}
+.contact{
+    width: 15%;
+    height: 46%;
+    font-size: smaller;
+    display: flex;
+    gap: 22px;
+    padding-left: 10px;
+    flex-direction: column;
+}
+.social{
+    width: 15%;
+    height: 46%;
+    font-size: smaller;
+    display: flex;
+    gap: 22px;
+    padding-left: 10px;
+}
+.fone{
+    position: absolute;
+    left: 37%;
+    top: 54%;
+    width: 12px;
+}
+.email{
+    position: absolute;
+    left: 37%;
+    top: 62%;
+    width: 12px;
+}
+.redes_sociais{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
